@@ -1,0 +1,73 @@
+@font-face {
+  font-family: BurbankBigCondensed-Bold;
+  src: url("sources/BurbankBigCondensed-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AmongUs-Regular;
+  src: url("sources/AmongUs-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Cublox;
+  src: url("sources/Cublox-293K.ttf") format("truetype");
+}  
+
+body {
+  text-align: center;
+  font-family: 'BurbankBigCondensed-Bold'
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+parent {
+  position: relative
+  display: inline
+}
+
+over {
+  position: absolute;
+  top: 0
+  left: 0
+}
+#img-container {
+   position: relative;
+
+  
+}
+
+
+
+#main-image {
+  position: absolute;
+ width: 100%;
+height: 100%;
+
+  
+}
+
+#map {
+  position: fixed;
+  bottom: 7vh;
+  transition: transform .2s;
+  right: 2vw;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+}
+
+#map:hover {
+transform: scale(1);
+transform-origin: bottom right;
+  
+}
+
+#buttons {
+  position: fixed;
+  bottom: 10wh;
+  
+
+  
+}
